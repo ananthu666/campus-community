@@ -1,12 +1,13 @@
 import "./App.css";
-import Navbar from './components/Navbar/Navbar'
+import NavBar from './components/Navbar/Navbar'
 import Main from './components/Main/Main'
 import Footer from './components/Footer/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <NavBar/>
       <Main/>
       <Footer/>
     </div>

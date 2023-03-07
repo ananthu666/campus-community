@@ -14,7 +14,8 @@ import CustomizedAccordions from "./Accordian";
 
 const Main = () => {
   return (
-    <>
+    <div className="main">
+    <div>
       <div className="section-1">
         <img className="pic-1" src={logo} alt="pic-1" />
 
@@ -141,7 +142,8 @@ const Main = () => {
         <h2>Frequently Asked Questions</h2>
         <CustomizedAccordions/>
       </div>
-    </>
+      </div>
+    </div>
   );
 };
 
