@@ -5,7 +5,6 @@ import stars from "../../images/stars.png";
 import arrow from "../../images/arrow.png";
 import about1 from "../../images/about1.png";
 import about2 from "../../images/about2.png";
-import skill1 from "../../images/skill1.png";
 import skill2 from "../../images/skill2.png";
 import skill3 from "../../images/skill3.png";
 import skill4 from "../../images/skill4.png";
@@ -30,7 +29,7 @@ const Main = () => {
                 <br /> Communities
               </h1>
               <div className="reg">
-                <a href="">
+                <a href="/">
                   <div className="reg-con">
                     <p className="register">Register Now</p>
                     <button>

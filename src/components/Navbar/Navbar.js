@@ -3,7 +3,6 @@ import "./navbar.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { NavHashLink as NavLinkScroll } from "react-router-hash-link";
 
 const NavBar = () => {
   return (

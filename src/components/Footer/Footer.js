@@ -1,8 +1,12 @@
 import React from "react";
 import "./footer.css";
-import logo from "../../images/eeti-logo.png";
+// import logo from "../../images/eeti-logo.png";
 import logo1 from "../../images/logo-eeti.svg";
-import { IoLogoLinkedin, IoLogoTwitter, IoLogoInstagram, IoLogoWhatsapp } from "react-icons/io";
+import {
+  IoLogoLinkedin,
+  IoLogoInstagram,
+  IoLogoWhatsapp,
+} from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -11,7 +15,7 @@ const Footer = () => {
         <div className="copyright  container justify text-white py-lg-4">
           <div className="logo">
             <a href="https://eetifoundation.org">
-              <img className="f-logo" src={logo1} />
+              <img className="f-logo" src={logo1} alt="logo" />
             </a>
           </div>
           <ul className=" list-inline social-media">
