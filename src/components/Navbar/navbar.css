@@ -23,20 +23,16 @@
  
 }
 
-.navbar-toggler-icon{
-    height: 1vw;
-
+.Container{
+  padding: 10px  0px;
 }
 
-nav > .container {
-  background-color: var(--primary-white);
-}
+
 
 .navText {
   font-weight: medium;
   /* font-size: 21px; */
   user-select: none;
-  color: var(--primary-grey-blue) !important;
 }
 
 .navText:hover {
