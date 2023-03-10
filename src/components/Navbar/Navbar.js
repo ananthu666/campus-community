@@ -7,8 +7,10 @@ import Navbar from "react-bootstrap/Navbar";
 const NavBar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" variant="light" className="navbar">
-      <Container className="Container">
-        <Navbar.Brand href="#home" className="brand"
+      <Container  className="Container">
+        <Navbar.Brand
+         href="#home"
+        className="brand"
         style={{color:"#ff845e"}}
         >
           EETI Foundation
@@ -16,25 +18,22 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-left">
-            <Nav.Link href="/" className="navText">
+            <Nav.Link href="/#home" className="navText">
               Home
             </Nav.Link>
-            <Nav.Link href="/events" className="navText">
+            <Nav.Link href="/#about" className="navText">
               About
             </Nav.Link>
-            <Nav.Link href="/aboutus" className="navText">
+            <Nav.Link href="/#benefits" className="navText">
               Rewards
             </Nav.Link>
-            <Nav.Link href="/team" className="navText">
+            <Nav.Link href="/#faq" className="navText">
               FAQ
             </Nav.Link>
-            <Nav.Link href="/careers" className="navText">
+            {/* <Nav.Link href="/#" className="navText">
               Contact
-            </Nav.Link>
-
-            
+            </Nav.Link> */}
           </Nav>
-          
         </Navbar.Collapse>
       </Container>
     </Navbar>

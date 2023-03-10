@@ -54,6 +54,7 @@
 @media (max-width: 430px) {
   .container{
     box-sizing: border-box;
+    padding: 12px;
     margin: 0;
   }
   nav{
