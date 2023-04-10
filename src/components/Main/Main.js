@@ -3,7 +3,7 @@ import "./main.css";
 import logo from "../../images/2205_w046_n004_121a_p1_121 1.png";
 import stars from "../../images/stars.png";
 import arrow from "../../images/arrow.png";
-import about1 from "../../images/about1.png";
+import about1 from "../../images/campus-1.jpg";
 import about2 from "../../images/about2.png";
 import skill2 from "../../images/skill2.png";
 import skill3 from "../../images/skill3.png";
@@ -68,7 +68,7 @@ const Main = () => {
             <h2>What are campus communities?</h2>
             <div className="about-container">
               <div className="img-about">
-                <img src={about2} alt="" className="m-hide" />
+                <img src={about1} alt="" className="m-hide" />
               </div>
               <div className="about-description">
                 <p>
