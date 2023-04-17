@@ -4,7 +4,10 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-const NavBar = () => {
+
+import React from 'react'
+
+function NavBar(){
   return (
     <Navbar collapseOnSelect expand="lg" variant="light" className="navbar">
       <Container  className="Container">
