@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../components/Navbar/NavBar';
+import NavBar from '../components/Navbar/Navbaar';
 import Footer from '../components/Footer/Footer';
 
 function Resources() {
