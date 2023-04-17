@@ -4,12 +4,12 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-const NavBar = () => {
+function NavBar(){
   return (
     <Navbar collapseOnSelect expand="lg" variant="light" className="navbar">
-      <Container  className="Container">
+      <Container className="Container">
         <Navbar.Brand
-         href="#home"
+         href="/"
         className="brand"
         style={{color:"#ff845e"}}
         >
@@ -24,6 +24,10 @@ const NavBar = () => {
             <Nav.Link href="/#about" className="navText">
               About
             </Nav.Link>
+            <Nav.Link href="/resources" className="navText">
+              Resources
+            </Nav.Link>
+
             <Nav.Link href="/#benefits" className="navText">
               Rewards
             </Nav.Link>
@@ -39,5 +43,4 @@ const NavBar = () => {
     </Navbar>
   );
 };
-
 export default NavBar;
