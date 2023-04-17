@@ -9,7 +9,7 @@ const NavBar = () => {
     <Navbar collapseOnSelect expand="lg" variant="light" className="navbar">
       <Container  className="Container">
         <Navbar.Brand
-         href="#home"
+         href="/"
         className="brand"
         style={{color:"#ff845e"}}
         >
@@ -24,6 +24,10 @@ const NavBar = () => {
             <Nav.Link href="/#about" className="navText">
               About
             </Nav.Link>
+            <Nav.Link href="/resources" className="navText">
+              Resources
+            </Nav.Link>
+
             <Nav.Link href="/#benefits" className="navText">
               Rewards
             </Nav.Link>
